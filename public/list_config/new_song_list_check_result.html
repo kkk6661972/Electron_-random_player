@@ -1,0 +1,83 @@
+<!--
+test_new_my_randam_player\public\list_config\
+new_song_list_check_result.html
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>登録チェック結果</title>
+</head>
+<body>
+    <h2>新規登録曲のチェック結果</h2>
+    
+    <!-- エラー情報表示エリア -->
+    <div id="error_area"></div>
+    
+    <!-- 有効なファイル情報 -->
+    <div id="valid_files">
+        <h3>追加可能なファイル</h3>
+        <ul id="valid_files_list"></ul>
+    </div>
+
+    <!-- 登録ボタンエリア -->
+    <div id="registration_button_area"></div>
+
+    <script>
+        const { ipcRenderer } = require('electron');
+        
+        // メインプロセスからデータを受信した時の処理
+        ipcRenderer.on('check_result_data', (event, result) => {
+            // エラーの有無をチェック
+            const has_errors = result.invalid_files.length > 0 || result.duplicate_files.length > 0;
+            
+            // エラーがある場合はその情報を表示
+            if (has_errors) {
+                const error_area = document.getElementById('error_area');
+                let error_message = '<h3>エラー</h3><ul>';
+                
+                // 無効なファイルの表示
+                if (result.invalid_files.length > 0) {
+                    error_message += '<li>無効なファイル:<ul>';
+                    result.invalid_files.forEach(file => {
+                        error_message += `<li>${file}</li>`;
+                    });
+                    error_message += '</ul></li>';
+                }
+                
+                // 重複ファイルの表示
+                if (result.duplicate_files.length > 0) {
+                    error_message += '<li>重複ファイル:<ul>';
+                    result.duplicate_files.forEach(file => {
+                        error_message += `<li>${file}</li>`;
+                    });
+                    error_message += '</ul></li>';
+                }
+                
+                error_area.innerHTML = error_message + '</ul>';
+            }
+
+            // 有効なファイルのリストを表示
+            const validFilesList = document.getElementById('valid_files_list');
+            result.valid_files.forEach(file => {
+                const li = document.createElement('li');
+                li.textContent = file;
+                validFilesList.appendChild(li);
+            });
+
+            // エラーがない場合のみ登録ボタンを表示
+            if (!has_errors) {
+                const buttonArea = document.getElementById('registration_button_area');
+                buttonArea.innerHTML = '<button id="start_registration">登録開始</button>';
+                
+                // 登録ボタンのクリックイベント
+                document.getElementById('start_registration').addEventListener('click', () => {
+                    ipcRenderer.send('new_list_regist');
+                    window.close();
+                });
+            }
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,168 @@
+<!-- public/index.html (ランチャー画面) -->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>ランダムプレーヤー</title>
+    <style>
+        .container {
+            display: flex;
+            width: 100%;
+        }
+        .main_content {
+            width: 60%;
+        }
+        .history_content {
+            width: 40%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- 左側：既存の操作エリア -->
+        <div class="main_content">
+            <h3>ランダムプレーヤー メニュー</h3>
+            <div class="tools_buttons">
+                <p>
+                    <button onclick="list_config_button('list_config/list_config.html')">
+                        曲リスト編集
+                    </button>
+                </p>
+                <p>
+                    <button id="random_button">曲情報取得（ランダム）</button>
+                </p>
+                <div id="song_hash"></div>
+                    <input type="checkbox" id="record_play_history" checked>
+                    <label for="record_play_history">再生履歴を記録する</label>
+                </p>
+                <audio id="audio_player" controls></audio>
+            </div>
+        </div>
+
+        <!-- 右側：再生履歴エリア -->
+        <div class="history_content">
+            <h2>再生履歴</h2>
+            <div id="play_history">
+                <!-- 履歴データがここに動的に追加されます -->
+                <div id="history_list">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+
+    // ___________________________________________________________________________________________________________
+    // レンダラープロセスからメインプロセスへのメッセージ送信
+    const { ipcRenderer } = require('electron');
+    
+    // メインプロセスに曲リスト編集画面を開くように指示
+    
+    function list_config_button(path) {
+        ipcRenderer.send('list_config_window', path);
+    }
+    
+    function song_config_button(path) {
+        ipcRenderer.send('song_config_window', path);
+    }
+
+    // ___________________________________________________________________________________________________________
+    // プレーヤー関連
+
+    // メインプロセスからのメッセージ受信（曲情報クラス）して表示
+    document.getElementById('random_button').addEventListener('click', () => {
+        ipcRenderer.send('request_random_song');
+    });
+    
+    // 現在再生処理するハッシュ値の情報
+    let this_record_hash = '';
+
+    ipcRenderer.on('random_song_play', (event, song) => {
+        //const info_div = document.getElementById('song_info');
+        const hash_div = document.getElementById('song_hash');
+        //info_div.innerHTML = song.url;
+        hash_div.innerHTML = `
+                    <p>レベル：${song.song_level}</p>
+                    <p>曲名：<a href="#" onclick="openSongConfig('${song.song_data.title}', '${song.song_level}', '${song.record_hash}')">${song.song_data.title}</a></p>
+                    <p>再生数：${song.song_data.play_count}</p>`;
+
+        // audioタグのソースを設定して再生
+        console.log('再生する曲のURL：', song.url);
+        audio_player.src = song.url;
+        audio_player.load(); // 新しいソースを読み込み
+        audio_player.play(); // 再生開始
+
+        // ハッシュ値を保持
+        this_record_hash = song.record_hash;
+    });
+
+    // 曲設定ウィンドウを開く関数
+    function openSongConfig(title, level, record_hash) {
+        ipcRenderer.send('open_song_config', {
+            title: title,
+            level: level,
+            record_hash: record_hash
+        });
+    }
+
+    // 曲が終了したときに次の曲をリクエスト
+    document.getElementById('audio_player').addEventListener('ended', () => {
+        // チェックボックスの状態を取得
+        const record_history = document.getElementById('record_play_history').checked;
+        
+        // デバッグ
+        console.log('曲終了処理時の確認：', record_history ? this_record_hash : 'recording disabled');
+        
+        // チェックボックスの状態に応じてメッセージ内容を切り替え
+        ipcRenderer.send('next_song_data', record_history ? this_record_hash : null);
+    });
+
+    // メインプロセスからの履歴データ受信と表示処理
+    ipcRenderer.on('play_history_list', (event, history_data) => {
+        const history_list = document.getElementById('history_list');
+        
+        if (history_data && history_data.length > 0) {
+            // 履歴データを反転して新しい順に並び替え
+            const reversed_history = [...history_data].reverse();
+            
+            // テーブルのヘッダーを作成
+            let html = `
+                <table style="width: 100%; border-collapse: collapse;">
+                    <thead>
+                        <tr>
+                            <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">レベル</th>
+                            <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">再生回数</th>
+                            <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">曲名</th>
+                        </tr>
+                    </thead>
+                    <tbody>`;
+
+            // 各履歴データの行を追加
+            reversed_history.forEach(song => {
+                // タイトルを適切にエスケープ
+                const escaped_title = song.title
+                    .replace(/\\/g, '\\\\')  // バックスラッシュをエスケープ
+                    .replace(/'/g, "\\'")    // シングルクォートをエスケープ
+                    .replace(/"/g, '\\"');   // ダブルクォートをエスケープ
+                    
+                // 曲名をクリッカブルなリンクに変更し、レベル設定機能を追加
+                html += `
+                    <tr>
+                        <td style="border: 1px solid #ddd; padding: 8px;">${song.level}</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">${song.play_count}</td>
+                        <td style="border: 1px solid #ddd; padding: 8px;">
+                            <a href="#" onclick="openSongConfig('${song.title}', '${song.level}', '${song.record_hash}')">${song.title}</a>
+                        </td>
+                    </tr>`;
+            });
+
+            html += `</tbody></table>`;
+            history_list.innerHTML = html;
+        } else {
+            history_list.innerHTML = '<p>再生履歴はありません</p>';
+        }
+    });
+
+</script>
+
+</body>
+</html>

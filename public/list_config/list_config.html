@@ -1,0 +1,67 @@
+<!-- public/index.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>曲リスト編集ツール</title>
+</head>
+<body>
+    <h1>曲リスト編集</h1>
+    <!-- 新曲登録セクション -->
+    <div class="section">
+        <p>曲の登録</p>
+        <div>
+            <label for="new_list_folder_path">登録する曲のwavファイルがあるフォルダを選択：</label>
+            <input type="text" id="new_list_folder_path" readonly>
+            <button id="select_folder">フォルダを選択</button>
+        </div>
+        <div>
+            <button id="new_list_check" disabled>新規登録曲のチェック</button>
+        </div>
+        <!-- 処理状況の表示エリア -->
+        <div id="registration_status"></div>
+    </div>
+
+
+    <!-- ____________________________________________________________ -->
+    <script>
+        // インポートボタンがクリックされたときの処理
+        const { ipcRenderer } = require('electron');
+
+        // ____________________________________________________________
+        // 新曲登録のイベントリスナー
+        
+        // フォルダ選択イベントリスナー
+        document.getElementById('select_folder').addEventListener('click', () => {
+            console.log('フォルダ選択ボタンがクリックされました');
+            // メインプロセスにフォルダ選択ダイアログ表示を依頼
+            ipcRenderer.send('select_new_list_folder_dialog');
+        });
+
+        // フォルダ選択結果を受信
+        ipcRenderer.on('selected_new_list_folder', (event, input_song_list_folder_path) => {
+            // 選択されたフォルダパスを表示
+            document.getElementById('new_list_folder_path').value = input_song_list_folder_path;
+            // 登録ボタンの有効化(パスが無効の場合は無効化)
+            document.getElementById('new_list_check').disabled = !input_song_list_folder_path;
+        });
+        
+        // 新規曲リスト登録処理の開始
+        document.getElementById('new_list_check').addEventListener('click', () => {
+            // 新規登録曲のフォルダパスを取得
+            const folder_path = document.getElementById('new_list_folder_path').value;
+            // 処理状況表示エリアを初期化
+            const status_area = document.getElementById('registration_status');
+            // 処理状況表示エリアを表示
+            status_area.textContent = '処理を開始します...';
+            // メインプロセスにファイル登録処理開始を依頼
+            const input_song_list_folder_path = document.getElementById('new_list_folder_path').value;
+            ipcRenderer.send('input_song_list_folder_path', input_song_list_folder_path);
+
+            // ボタンの表示を変更
+            // チェックボタンを非表示にする
+            document.getElementById('new_list_check').style.display = 'none';
+        });
+    </script>
+</body>
+</html>

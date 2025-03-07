@@ -1,0 +1,95 @@
+<!-- public/song_config.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>曲レベル設定</title>
+    <style>
+        /* ボタンのスタイルを整える */
+        button {
+            margin: 5px;
+            padding: 5px 10px;
+        }
+        /* コピー成功時のフィードバック表示用 */
+        .copy-feedback {
+            color: green;
+            display: none;
+            margin-left: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h2>曲レベル設定</h2>
+    <div id="song_info"></div>
+    <div>
+        <select id="level_select"></select>
+        <button onclick="updateLevel()">更新</button>
+    </div>
+    <div style="margin-top: 20px;">
+        <button onclick="copyTitleToClipboard()">タイトルをコピー</button>
+        <span id="copyFeedback" class="copy-feedback">コピーしました！</span>
+    </div>
+
+    <script>
+        const { ipcRenderer } = require('electron');
+
+        let current_hash = '';
+        let current_title = '';  // タイトルを保持する変数を追加
+
+        // メインプロセスから曲情報を受信
+        ipcRenderer.on('song_data', (event, song_data) => {
+            current_hash = song_data.record_hash;
+            current_title = song_data.title;  // タイトルを保存
+            
+            // 曲情報を表示
+            document.getElementById('song_info').innerHTML = `
+                <p>タイトル：${song_data.title}</p>
+                <p>現在のレベル：${song_data.level}</p>
+            `;
+
+            // レベル選択肢を設定
+            const select = document.getElementById('level_select');
+            song_data.available_levels.forEach(level => {
+                const option = document.createElement('option');
+                option.value = level;
+                option.text = level;
+                if (level === song_data.level) {
+                    option.selected = true;
+                }
+                select.appendChild(option);
+            });
+        });
+
+        // レベル更新処理
+        function updateLevel() {
+            const new_level = document.getElementById('level_select').value;
+            ipcRenderer.send('update_song_level', {
+                record_hash: current_hash,
+                new_level: new_level
+            });
+            window.close();
+        }
+
+        // クリップボードコピー機能
+        async function copyTitleToClipboard() {
+            try {
+                // クリップボードにタイトルをコピー
+                await navigator.clipboard.writeText(current_title);
+                
+                // コピー成功時のフィードバックを表示
+                const feedback = document.getElementById('copyFeedback');
+                feedback.style.display = 'inline';
+                
+                // フィードバックを2秒後に非表示
+                setTimeout(() => {
+                    feedback.style.display = 'none';
+                }, 2000);
+                
+            } catch (err) {
+                console.error('クリップボードへのコピーに失敗しました:', err);
+                alert('クリップボードへのコピーに失敗しました');
+            }
+        }
+    </script>
+</body>
+</html>
