@@ -86,7 +86,7 @@ const config = import_ini(ini_path);
 const current_json_path = config.MediaPath.new_music_list;
 // ランダム選曲のタイプ 1 = 一次関数、2 = 二次関数
 let random_type = null;
-random_type = 1;
+random_type = 2;
 // 重み指数
 let exp_base = null;
 exp_base = 5;

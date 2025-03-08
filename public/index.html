@@ -116,9 +116,25 @@
         ipcRenderer.send('next_song_data', record_history ? this_record_hash : null);
     });
 
+
     // メインプロセスからの履歴データ受信と表示処理
     ipcRenderer.on('play_history_list', (event, history_data) => {
         const history_list = document.getElementById('history_list');
+        
+        // 文字列をJavaScriptの文字列リテラル内で安全に使用するためのエスケープ関数
+        function escapeJsString(str) {
+            return str
+                .replace(/\\/g, '\\\\')  // バックスラッシュをエスケープ
+                .replace(/'/g, "\\'")    // シングルクォートをエスケープ
+                .replace(/"/g, '\\"')    // ダブルクォートをエスケープ
+                .replace(/\n/g, '\\n')   // 改行をエスケープ
+                .replace(/\r/g, '\\r')   // キャリッジリターンをエスケープ
+                .replace(/\t/g, '\\t')   // タブをエスケープ
+                .replace(/\f/g, '\\f')   // フォームフィードをエスケープ
+                .replace(/\v/g, '\\v')   // 垂直タブをエスケープ
+                .replace(/\b/g, '\\b')   // バックスペースをエスケープ
+                .replace(/\0/g, '\\0');  // NULL文字をエスケープ
+        }
         
         if (history_data && history_data.length > 0) {
             // 履歴データを反転して新しい順に並び替え
@@ -138,19 +154,12 @@
 
             // 各履歴データの行を追加
             reversed_history.forEach(song => {
-                // タイトルを適切にエスケープ
-                const escaped_title = song.title
-                    .replace(/\\/g, '\\\\')  // バックスラッシュをエスケープ
-                    .replace(/'/g, "\\'")    // シングルクォートをエスケープ
-                    .replace(/"/g, '\\"');   // ダブルクォートをエスケープ
-                    
-                // 曲名をクリッカブルなリンクに変更し、レベル設定機能を追加
                 html += `
                     <tr>
                         <td style="border: 1px solid #ddd; padding: 8px;">${song.level}</td>
                         <td style="border: 1px solid #ddd; padding: 8px;">${song.play_count}</td>
                         <td style="border: 1px solid #ddd; padding: 8px;">
-                            <a href="#" onclick="openSongConfig('${song.title}', '${song.level}', '${song.record_hash}')">${song.title}</a>
+                            <a href="#" onclick="openSongConfig('${escapeJsString(song.title)}', '${song.level}', '${song.record_hash}')">${song.title}</a>
                         </td>
                     </tr>`;
             });
@@ -161,8 +170,6 @@
             history_list.innerHTML = '<p>再生履歴はありません</p>';
         }
     });
-
 </script>
-
 </body>
 </html>

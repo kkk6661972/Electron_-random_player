@@ -1,0 +1,60 @@
+{
+  "0": [
+    {
+      "title": "angela-LOVE & CARNIVAL-ホライズン",
+      "played": true,
+      "play_count": 2,
+      "record_hash": "3f6693cb4fee28a10f538d25448d7e667283da2bac504d0719a550419ae8f429"
+    }
+  ],
+  "1": [
+    {
+      "title": "ゴダイゴ-Best New Music 100-ガンダーラ／ゴダイゴ",
+      "played": true,
+      "play_count": 2,
+      "record_hash": "0bfe9f4669984306609c87779f1307a1fe193ed9150929cbb1fe6ac5c98de8df"
+    },
+    {
+      "title": "榊原ゆい-Fractal-煌めき一閃",
+      "played": true,
+      "play_count": 1,
+      "record_hash": "f9f9e3c5730f2c54e0abad9142b0e6beb5811909337f7e68485066a35272d51e"
+    },
+    {
+      "title": "榊原ゆい-Splash!-Sunrize -Juliet.number-",
+      "played": true,
+      "play_count": 1,
+      "record_hash": "2779aa01b8997c54757ccce4461503cd7dc9cc035ebd402393b77c642c8759ef"
+    }
+  ],
+  "2": [
+    {
+      "title": "茶太-HOOKSOFT MEMORIAL SOUND COLLECTION 2000～2008 オトノキセキ-晴れ→恋心",
+      "played": false,
+      "play_count": 1,
+      "record_hash": "f50f91a933a29bb42ba651218889880032f6f10028f462a4b7c0705f5fe32cbc"
+    },
+    {
+      "title": "Sound Horizon-イドへ至る森へ至るイド-彼女が魔女になった理由",
+      "played": false,
+      "play_count": 0,
+      "record_hash": "5f8406f9e976a748c4c9cf7d8f922bebf6a2cb8df77e990b8e972b6e343d68c1",
+      "level": 3
+    }
+  ],
+  "3": [
+    {
+      "title": "浅葉リオ-クリミナルボーダー 2nd offence SOUNDTRACK-隠恋情",
+      "played": false,
+      "play_count": 1,
+      "record_hash": "17af53aece72c7e63ac0084bca854a5c6032aa75e98375a40e3d75b07326bc5d"
+    },
+    {
+      "title": "悠季-solfa works best album「chronicle ~cat side~」-闇の輪廻",
+      "played": false,
+      "play_count": 1,
+      "record_hash": "0c7505402d2f973a899bb764cdc23803572c26c4d46d43d44df22468670ea51b",
+      "level": 3
+    }
+  ]
+}

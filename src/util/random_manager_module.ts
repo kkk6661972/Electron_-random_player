@@ -64,6 +64,47 @@ function make_random_level_linear(macro_song_data: { [key: string]: number }, ex
     return level_ratios;
 }
 
+// 二次関数によるレベルの曲数の割り振り
+function make_random_level_quadratic(macro_song_data: { [key: string]: number }, exp_base: number): { [key: string]: number } {
+    // サンプル macro_song_data = { "1": 10, "2": 20, "3": 30, "4": 40, "5": 50, "6": 60, "7": 70, "8": 80, "9": 90, "10": 100 };
+    
+    // 重み指数のトータルをカウント
+    let total_weight_value = 0;
+
+    // キーの値分だけループ
+    Object.keys(macro_song_data).forEach(level => {
+        // 二次関数による割り振り
+        if (level == "1") {
+            // level = 1 では、重み指数は曲数のまま
+            macro_song_data[level] = Math.floor(macro_song_data[level]);
+        } else {
+            // level = 1 以外の場合は二次関数の重み計算
+            // ax² + b の形式で計算（ここでは a = exp_base/2、b = 1 とする）
+            const level_num = parseInt(level);
+            const quadratic_factor = exp_base / 2; // 二次関数の係数（小さくして急激な増加を抑制）
+            
+            // 二次関数の計算: 曲数 × (quadratic_factor × level² + 1)
+            // 1を加えることで必ず元の曲数以上になるようにする
+            const weight_multiplier = quadratic_factor * Math.pow(level_num, 2) + 1;
+            macro_song_data[level] = Math.floor(macro_song_data[level] * weight_multiplier);
+        }
+        
+        // 重み指数のトータルをカウント
+        total_weight_value += macro_song_data[level];
+    });
+    
+    // レベルごとの重み指数の割合を格納するオブジェクト
+    let level_ratios: { [key: string]: number } = {};
+    
+    // キーの値分だけループ
+    Object.keys(macro_song_data).forEach(level => {
+        // レベルごとの重み指数の割合を計算
+        level_ratios[level] = macro_song_data[level] / total_weight_value;
+    });
+
+    return level_ratios;
+}
+
 // 選曲対象レベルをランダムに選択
 function select_random_level(level_ratios: { [key: string]: number }): string {
     // 乱数生成
@@ -115,7 +156,6 @@ function change_played(json_path: string, level: number): boolean {
         record_hash: string;
     }
     try {
-        //const song_data: SongList = JSON.parse(fs.readFileSync(json_path, 'utf8'));
         // JSONファイルを読み込んでパース
         const song_data = require(json_path);
         
@@ -162,7 +202,6 @@ function create_play_url(record_hash: string, json_path: string, wave_dir: strin
 
 // 曲データの型定義を追加
 interface SongData {
-    //level: number;
     title: string;
     played: boolean;
     play_count: number;
@@ -187,7 +226,7 @@ function result_random_manager(json_path: string, random_type: number, exp_base:
         level_ratios = make_random_level_linear(macro_song_data, exp_base);
     } else if (random_type === 2) {
         // 二次関数によるレベルの曲数の割り振り
-        //make_random_level_quadratic(macro_song_data, exp_base);
+        level_ratios = make_random_level_quadratic(macro_song_data, exp_base);
     } else {
         console.log("ランダム選曲のタイプが不正です");
     }
@@ -214,13 +253,13 @@ function result_random_manager(json_path: string, random_type: number, exp_base:
         }
     }
 
+    
     // 曲データを取得
     let song_data = require(json_path)[select_level].find((song: SongData) => 
         song.record_hash === play_record_hash
     ) || null;
     // レベル情報を追加
     ipcMain.emit('debug_message', null, `追加するレベル情報の前の値: ${song_data.level}`);
-    //song_data.level = parseInt(select_level);
 
     // 再生URLの生成
     const play_url = create_play_url(play_record_hash, json_path, config.MediaPath.wave_dir);
