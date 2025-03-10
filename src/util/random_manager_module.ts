@@ -22,6 +22,8 @@ function export_macro_song_data(json_path: string): { [key: string]: number } {
     // レベルごとの曲数をカウント
     Object.keys(raw_data).forEach(level => {
         if (level !== "0") {
+            ipcMain.emit('debug_message', null, `level : ${level}`);
+            ipcMain.emit('debug_message', null, `raw_data[level].length : ${raw_data[level].length}`);
             res[level] = raw_data[level].length;
         }
     });
@@ -231,6 +233,10 @@ function result_random_manager(json_path: string, random_type: number, exp_base:
         console.log("ランダム選曲のタイプが不正です");
     }
 
+    ipcMain.emit('debug_message', null, `random_type : ${random_type}`);    
+    ipcMain.emit('debug_message', null, `レベルのレート ： ${JSON.stringify(level_ratios, null, 2)}`);
+
+
     // 選曲対象のレベル
     const select_level = select_random_level(level_ratios);
 
@@ -253,16 +259,14 @@ function result_random_manager(json_path: string, random_type: number, exp_base:
         }
     }
 
-    
     // 曲データを取得
     let song_data = require(json_path)[select_level].find((song: SongData) => 
         song.record_hash === play_record_hash
     ) || null;
-    // レベル情報を追加
-    ipcMain.emit('debug_message', null, `追加するレベル情報の前の値: ${song_data.level}`);
 
-    // 再生URLの生成
+    // 再生回数を更新
     const play_url = create_play_url(play_record_hash, json_path, config.MediaPath.wave_dir);
+
     return { 
         url: play_url, 
         record_hash: play_record_hash,

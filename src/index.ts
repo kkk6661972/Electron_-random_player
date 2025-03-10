@@ -89,7 +89,7 @@ let random_type = null;
 random_type = 2;
 // 重み指数
 let exp_base = null;
-exp_base = 5;
+exp_base = 6;
 
 // 'request_random_song' メッセージを受信して処理
 ipcMain.on('request_random_song', (event) => {

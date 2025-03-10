@@ -83,6 +83,24 @@
       "played": true,
       "play_count": 1,
       "record_hash": "7d4ee312891ed8666933d473e71c8edfc16dd3643a36243bb03d91e5c33d469c"
+    },
+    {
+      "title": "橋本みゆき-Navel BEST 2011-2013-SHINY MOON",
+      "played": true,
+      "play_count": 1,
+      "record_hash": "cb47381017b947c32d676b6283b7f7c1ce8515660d6f8e0e6fbf8b1ded341a6a"
+    },
+    {
+      "title": "KOTOKO-GWAVE 2014 1st Favorite-affection",
+      "played": true,
+      "play_count": 1,
+      "record_hash": "aef106e7b23af66903c91169e5159c9ce67d756407103385d615aaea66f3a717"
+    },
+    {
+      "title": "Sound Horizon-Moira-奴隷市場 - Δουλοι -",
+      "played": true,
+      "play_count": 1,
+      "record_hash": "4f425e18e602d4f00d7b0fc2e6e28ee988ee87683efbf51ce218c72e926dc89b"
     }
   ],
   "1": [
@@ -248,8 +266,8 @@
     },
     {
       "title": "KIRIKO-GWAVE 2004 1st Groove-碧ヶ淵-みどりがふち-",
-      "played": false,
-      "play_count": 0,
+      "played": true,
+      "play_count": 1,
       "record_hash": "7c9aa0f725c9cd6bcb1c5f533728962c6f07ef153742a4368488e64b86891332"
     },
     {
@@ -471,12 +489,6 @@
       "record_hash": "ab24d7033c71038c290284ca4547bcd02b41789dc8d13b3e11c4b854282dbf08"
     },
     {
-      "title": "Sound Horizon-Moira-奴隷市場 - Δουλοι -",
-      "played": false,
-      "play_count": 0,
-      "record_hash": "4f425e18e602d4f00d7b0fc2e6e28ee988ee87683efbf51ce218c72e926dc89b"
-    },
-    {
       "title": "nao-phantasia ballad-second Re：Phase",
       "played": false,
       "play_count": 0,
@@ -619,6 +631,12 @@
       "played": true,
       "play_count": 1,
       "record_hash": "224b6dd1f94288b77582725b2f980a7845597d03ab5b000e196ae3d274ef02df"
+    },
+    {
+      "title": "AiRI-Puzzle-learn together",
+      "played": true,
+      "play_count": 1,
+      "record_hash": "4bdfac03980ce576293046769f9d999c9d5b25cc72916498cb425ac559cd3a63"
     }
   ],
   "5": [
@@ -963,6 +981,24 @@
       "played": true,
       "play_count": 1,
       "record_hash": "0f6fb50ec51ded9f41d89fbafa800d89fe3661a1dd4c25ea6491b7ff4d9893ec"
+    },
+    {
+      "title": "狩野七夏-サクラノ刻 －櫻の森の下を歩む－ Vocal Collection-櫻ト向日葵",
+      "played": true,
+      "play_count": 1,
+      "record_hash": "1246ac777ddf3428d0f81f72f6d0855ce061a926793c49e1528e581d2cd7101e"
+    },
+    {
+      "title": "飛蘭-Live in Despair-Live in Despair",
+      "played": true,
+      "play_count": 1,
+      "record_hash": "5da592457cfb18951f74a73da68c3c10fb1d1c854f8d2d3ce77411688e558ff7"
+    },
+    {
+      "title": "Rita-眠れる花は春をまつ。-希いの花",
+      "played": true,
+      "play_count": 1,
+      "record_hash": "bcba381416846e3b6a53840d2b950bfe248fb19fe6c6f0d29e42b34ea54f342b"
     }
   ],
   "6": [
@@ -1292,8 +1328,8 @@
     },
     {
       "title": "D-selections-賭ケグルイ Ost-LAYon-theLINE (re-make a bet on soul)",
-      "played": false,
-      "play_count": 0,
+      "played": true,
+      "play_count": 1,
       "record_hash": "9e020fe54e73ff92ca528dbdd2be5988c04a97766c56bd4603dc039c32cfd659"
     },
     {
@@ -1445,6 +1481,30 @@
       "played": true,
       "play_count": 1,
       "record_hash": "49ed0e806087f80c46b731098b4ac9fdf87049ba4d3f5835b7c7a516e01fb880"
+    },
+    {
+      "title": "鈴木このみ-Symphony Sounds Eternal III-Lasting Moment",
+      "played": true,
+      "play_count": 1,
+      "record_hash": "0234331a7d957ad9365d71c94d3ed84c31e9818f7f4f6debdf7efdc2eb11936a"
+    },
+    {
+      "title": "織田かおり-Make it-LOVE×∞ 2016",
+      "played": true,
+      "play_count": 1,
+      "record_hash": "fedcb429daf4edf49b18e61061e9c968fb2515d6c854bf0472a4ece39491e281"
+    },
+    {
+      "title": "橋本みゆき-ten years carat-Astraea",
+      "played": true,
+      "play_count": 1,
+      "record_hash": "fd01f2090df4d6f160fc339304547becf93d3162f2386c5803557bb853f1f240"
+    },
+    {
+      "title": "Duca-Duca Works Best 2-COLD BUTTERFLY",
+      "played": true,
+      "play_count": 1,
+      "record_hash": "1db2ef0c6f251338f6c688e0477455e1a76b1ceb6d841b002504f78f5a126c27"
     }
   ],
   "7": [
@@ -1581,12 +1641,6 @@
       "record_hash": "ce7a0ef1d7d99accb07af7fdc33b6ba1e6208c09edf3481e73bdc9c71cd7a226"
     },
     {
-      "title": "Rita-眠れる花は春をまつ。-希いの花",
-      "played": false,
-      "play_count": 0,
-      "record_hash": "bcba381416846e3b6a53840d2b950bfe248fb19fe6c6f0d29e42b34ea54f342b"
-    },
-    {
       "title": "Miku-VOCALOID-Soar",
       "played": true,
       "play_count": 1,
@@ -1693,12 +1747,6 @@
       "played": true,
       "play_count": 1,
       "record_hash": "30190ce982fee5bcca10c86a115548a973d69283bfb0f2187d0bc14d1b8d4419"
-    },
-    {
-      "title": "KOTOKO-GWAVE 2014 1st Favorite-affection",
-      "played": false,
-      "play_count": 0,
-      "record_hash": "aef106e7b23af66903c91169e5159c9ce67d756407103385d615aaea66f3a717"
     },
     {
       "title": "佐咲紗花-GWAVE 2012 1st Memories-BLAZE MOMENT ～紅蓮浄歌～",
@@ -1819,12 +1867,6 @@
       "played": true,
       "play_count": 1,
       "record_hash": "890453dd80572f9c94dcf7cf40a309a192b412b6933e0ac9a4159cf5d7ca4c26"
-    },
-    {
-      "title": "飛蘭-Live in Despair-Live in Despair",
-      "played": false,
-      "play_count": 0,
-      "record_hash": "5da592457cfb18951f74a73da68c3c10fb1d1c854f8d2d3ce77411688e558ff7"
     },
     {
       "title": "新田恵海-アストラエアの白き永遠 -ETERNAL BEST--White Eternity",
@@ -1981,6 +2023,12 @@
       "played": true,
       "play_count": 1,
       "record_hash": "b5d92c7bbdad886034331c519053592a3471c424def8f1503c531a4d96c1eed3"
+    },
+    {
+      "title": "MAKI-Pachislot Sengoku Collection Music Selection-夢幻を越えて",
+      "played": true,
+      "play_count": 1,
+      "record_hash": "3b4310e72cc2aca8586374e2f2f66fbc8e50935ad2d441b31f84458f3d3db68d"
     }
   ],
   "8": [
@@ -2046,8 +2094,8 @@
     },
     {
       "title": "Lia-ほしうた★ORIGINAL SOUNDTRACK★-尋ねビト",
-      "played": false,
-      "play_count": 0,
+      "played": true,
+      "play_count": 1,
       "record_hash": "14ed669f1db1e33c342b49498a83c22be6b1a7b1441ed226a12673d40601313f"
     },
     {
@@ -2268,8 +2316,8 @@
     },
     {
       "title": "ほたる-Lucent Wish-Proof of River",
-      "played": false,
-      "play_count": 0,
+      "played": true,
+      "play_count": 1,
       "record_hash": "c86c25349f8dcaa41e87f92cfba48ae2a4c25f5a6259375836b3f702f8248585"
     },
     {
@@ -2352,8 +2400,8 @@
     },
     {
       "title": "TRakker(青葉りんご)-TRanswing -The Inner Gaze--Unmapped",
-      "played": false,
-      "play_count": 0,
+      "played": true,
+      "play_count": 1,
       "record_hash": "15ae531c7decc5ab672f6d726e3c9933da04240569bbf6c4d0bc80df939fbfb5"
     },
     {
@@ -2370,8 +2418,8 @@
     },
     {
       "title": "KOTOKO-Face of Fact -RESOLUTION ver.--Face of Fact -RESOLUTION ver.-",
-      "played": false,
-      "play_count": 0,
+      "played": true,
+      "play_count": 1,
       "record_hash": "1f3aa84f555a7358ffb7d445442821d3ce83ea89e753c1458618441c1fe93013"
     },
     {
@@ -2415,12 +2463,6 @@
       "played": false,
       "play_count": 0,
       "record_hash": "02dd2d25bc92068d494ce043c009db6c13835715726c7c8c96f72cccb2825712"
-    },
-    {
-      "title": "鈴木このみ-Symphony Sounds Eternal III-Lasting Moment",
-      "played": false,
-      "play_count": 0,
-      "record_hash": "0234331a7d957ad9365d71c94d3ed84c31e9818f7f4f6debdf7efdc2eb11936a"
     },
     {
       "title": "Shihori-風 -KAZE--KAZE NO KIOKU",
@@ -2493,12 +2535,6 @@
       "played": false,
       "play_count": 0,
       "record_hash": "df509c8954a240f606f59bafb773a84bd851ebadef6ec71db14d34d321a122eb"
-    },
-    {
-      "title": "AiRI-Puzzle-learn together",
-      "played": false,
-      "play_count": 0,
-      "record_hash": "4bdfac03980ce576293046769f9d999c9d5b25cc72916498cb425ac559cd3a63"
     },
     {
       "title": "nao-fripSide PC game compilation vol.1-colorless fate -ver.Luna 2011-",
@@ -2628,8 +2664,8 @@
     },
     {
       "title": "米倉千尋-9nine-ここのつここのかここのいろ- Ost-ふたり",
-      "played": false,
-      "play_count": 0,
+      "played": true,
+      "play_count": 1,
       "record_hash": "a0bb5fe1341695d3f91de2858dc084727a242250d9abaed397a1e87d89732935"
     },
     {
@@ -2826,14 +2862,14 @@
     },
     {
       "title": "KOTOKO-real-Reality-real-Reality",
-      "played": false,
-      "play_count": 0,
+      "played": true,
+      "play_count": 1,
       "record_hash": "d7c7f7cce922d78018188ef12da994cf12b74fa1fb1d689d44cb8f1a66778ef3"
     },
     {
       "title": "KOTOKO-ALMA ～ずっとそばに…～-Undying Love",
-      "played": false,
-      "play_count": 0,
+      "played": true,
+      "play_count": 1,
       "record_hash": "d24bdab7fac2c5561f014c5c09dec1406440c9998c28a4ab69a4e9630d4218ee"
     },
     {
@@ -2907,6 +2943,12 @@
       "played": true,
       "play_count": 1,
       "record_hash": "746a359086961f09d0171809a4362644ebe763e8c88c850c71d916885f2c8807"
+    },
+    {
+      "title": "丹下桜-Assemble-Assemble REBIRTH ArrangeMix",
+      "played": true,
+      "play_count": 1,
+      "record_hash": "61dd0148cd7eb307034a46fdc74547c066ab6ddc6718e6f7d5402122867bb5bf"
     }
   ],
   "9": [
@@ -2924,8 +2966,8 @@
     },
     {
       "title": "向日葵-Electro.sinker-Slow Step -First Love Comes Again-",
-      "played": false,
-      "play_count": 0,
+      "played": true,
+      "play_count": 1,
       "record_hash": "10bbd40d9ee39d8f30d06c0d143bef478239cc10276fad6da962c47c3191930d"
     },
     {
@@ -2954,8 +2996,8 @@
     },
     {
       "title": "ALI PROJECT-COLLECTION SIMPLE PLUS-赤と黒 [original ver.]",
-      "played": false,
-      "play_count": 0,
+      "played": true,
+      "play_count": 1,
       "record_hash": "c18ae127a27dd5428a83057b466cb0746432d1159ce0ce7f61eb9a7b9f7687d7"
     },
     {
@@ -3122,8 +3164,8 @@
     },
     {
       "title": "隣人 feat.peЯoco.-RAVER'S NEST 6 TOHO RAVE PARTY-LOOP THE LOOP",
-      "played": false,
-      "play_count": 0,
+      "played": true,
+      "play_count": 1,
       "record_hash": "45f806aab6ce705ef94b25abddae4ee783c3d3b607d8afcdae1d3efcbb9f3ca0"
     },
     {
@@ -3296,8 +3338,8 @@
     },
     {
       "title": "中恵光城・霜月はるか-HAMOTSUKIN BEST～Original Disc～-collage",
-      "played": false,
-      "play_count": 0,
+      "played": true,
+      "play_count": 1,
       "record_hash": "73a9280c1470599cbb53c1ce5ab11bacfdbfa9ff29c4ba97489f1f763e84c90e"
     },
     {
@@ -3344,8 +3386,8 @@
     },
     {
       "title": "坂上なち-of memories-Dream Battle",
-      "played": false,
-      "play_count": 0,
+      "played": true,
+      "play_count": 1,
       "record_hash": "b9bd3837fae20b4311ed445b35e85b42f0a6c50f1b9c6ad342ace175dc4fd326"
     },
     {
@@ -3404,8 +3446,8 @@
     },
     {
       "title": "中原涼-細井聡司ワークス -Vocalists--砂の城 -fearless breaker-",
-      "played": false,
-      "play_count": 0,
+      "played": true,
+      "play_count": 1,
       "record_hash": "5df6ed2f1076039a3964620fbd097e07c91e0d11eb9ca57aa15c7a956386f8c6"
     },
     {
@@ -3650,8 +3692,8 @@
     },
     {
       "title": "坂本真綾-幸せについて私が知っている5つの方法-幸せについて私が知っている5つの方法",
-      "played": false,
-      "play_count": 0,
+      "played": true,
+      "play_count": 1,
       "record_hash": "201a6271d81512b56f5b10266a9ba2882ec35349ff451a3df2d0c69d37bbe280"
     },
     {
@@ -3806,8 +3848,8 @@
     },
     {
       "title": "nao-prismatic infinity carat.-arc at daybreak ～ハバタク、キミトノミライ～",
-      "played": false,
-      "play_count": 0,
+      "played": true,
+      "play_count": 1,
       "record_hash": "f5ee340a8b25bde4fd4163dddbef4ea63c8d4185ed8d12a6be329fdb553524d2"
     },
     {
@@ -3824,8 +3866,8 @@
     },
     {
       "title": "Miku-VOCALOID-Unfragment",
-      "played": false,
-      "play_count": 0,
+      "played": true,
+      "play_count": 1,
       "record_hash": "61f2320a581531bc28561f2ccbe24f7317183ac846b5215f43ab948a47acd937"
     },
     {
@@ -3875,12 +3917,6 @@
       "played": true,
       "play_count": 1,
       "record_hash": "688e884a102fe98b3c19d4898a367e6e276dd78f7a9289ead05322a5214c5ebb"
-    },
-    {
-      "title": "Duca-Duca Works Best 2-COLD BUTTERFLY",
-      "played": false,
-      "play_count": 0,
-      "record_hash": "1db2ef0c6f251338f6c688e0477455e1a76b1ceb6d841b002504f78f5a126c27"
     },
     {
       "title": "小倉 唯、水霧けいと-永遠のアセリア Raison d'etre-unnamed flowers",
@@ -3985,12 +4021,6 @@
       "played": false,
       "play_count": 0,
       "record_hash": "1a82f7c8d87d7a2b661a6a9385ff60ea501d3ff2ad93ae3f9bfa774fd5f1c983"
-    },
-    {
-      "title": "丹下桜-Assemble-Assemble REBIRTH ArrangeMix",
-      "played": false,
-      "play_count": 0,
-      "record_hash": "61dd0148cd7eb307034a46fdc74547c066ab6ddc6718e6f7d5402122867bb5bf"
     },
     {
       "title": "柚子乃-Hi-Black-モラトリアム・クラスタ",
@@ -4132,8 +4162,8 @@
     },
     {
       "title": "津田朱里-AQUAPLUS VOCAL COLLECTION VOL.11-僕はいつだって",
-      "played": false,
-      "play_count": 0,
+      "played": true,
+      "play_count": 1,
       "record_hash": "8123854d28670c509e730b087caf505fbdab2901c3e6a94e5465516a9387c142"
     },
     {
@@ -4144,8 +4174,8 @@
     },
     {
       "title": "佐咲紗花-sympathetic world-Lucky☆Racer",
-      "played": false,
-      "play_count": 0,
+      "played": true,
+      "play_count": 1,
       "record_hash": "1cc945637e642255084d0f2c4a463f0fffdcab1efcd051a2faeac04367e415c1"
     },
     {
@@ -4204,8 +4234,8 @@
     },
     {
       "title": "中森明菜-Akina Nakamori～歌姫 ダブル・ディケイド-飾りじゃないのよ涙は",
-      "played": false,
-      "play_count": 0,
+      "played": true,
+      "play_count": 1,
       "record_hash": "6740e001afc6b3f1cfbcc13b75e365147734d7ff02f6098430abe46c273de32f"
     },
     {
@@ -4300,8 +4330,8 @@
     },
     {
       "title": "KOTOKO-蒼-iconoclast ／ PIGEON-the green-ey'd monster-PIGEON-the green-ey’d monster-",
-      "played": false,
-      "play_count": 0,
+      "played": true,
+      "play_count": 1,
       "record_hash": "db8cb51f0a754f5f0862730acfcf1ef2191a01ff5adeb5b0afffdbae055df8a2"
     },
     {
@@ -4510,8 +4540,8 @@
     },
     {
       "title": "柚子乃-I've GIRL'S COMPILATION Vol.9「Evidence nine」-サブリミナル・アジェンダ -Album Mix-",
-      "played": false,
-      "play_count": 0,
+      "played": true,
+      "play_count": 1,
       "record_hash": "38e1a6c81bff30b671de0ccd710076efa60b4862c0a3c9433d207922fc7dfe4f"
     },
     {
@@ -4588,14 +4618,14 @@
     },
     {
       "title": "Riryka-Epitaph ～夜桜幻想譚～-OFF",
-      "played": false,
-      "play_count": 0,
+      "played": true,
+      "play_count": 1,
       "record_hash": "a542666ad40a5e7cdc53bca9f9a739a84064e32cd71d7dcd189a6d4514227eb6"
     },
     {
       "title": "mican＊-IGNITION DANCEHALL-A_Loops_Z",
-      "played": false,
-      "play_count": 0,
+      "played": true,
+      "play_count": 1,
       "record_hash": "f1e320b9f650005b6a87654b829fed241bd1b9d7a0d1a3abeea1f01a8f207a80"
     },
     {
@@ -4885,6 +4915,30 @@
       "played": true,
       "play_count": 1,
       "record_hash": "f021c35d5eb48c08b5fca6a0c212ef72bf7451850553394af224349adf3322aa"
+    },
+    {
+      "title": "櫻川めぐ-蒼乃燐光 -Azure Phosphorescence--月世界航路-A Zip to the Moon-",
+      "played": true,
+      "play_count": 1,
+      "record_hash": "af256b6aa061cf73a3b374d66a1a2383e2b71aac02c04f5fa0cb39af774e77a0"
+    },
+    {
+      "title": "霜月はるか-130cm × アラケン ボーカルコレクション-眠花",
+      "played": true,
+      "play_count": 1,
+      "record_hash": "6e39737091c00a0d28ad6a9b8885fd5d0de2c45657fac9a42d981c091e7cbec5"
+    },
+    {
+      "title": "柏木晴子-「マブラヴ」シリーズ･ボーカル集-START IN LOVE",
+      "played": true,
+      "play_count": 1,
+      "record_hash": "e757ee87908f5d7f3bf7102b884561d49a093d9a8e910808db3b00167b58ca3d"
+    },
+    {
+      "title": "橋本みゆき-GWAVE 2012 1st Memories-Fate Runners",
+      "played": true,
+      "play_count": 1,
+      "record_hash": "be9c72432247ee582557d91a2c448021752040ce152f731593b74856ee7a9e7b"
     }
   ],
   "11": [
@@ -4920,8 +4974,8 @@
     },
     {
       "title": "電気式華憐音楽集団-ク・リトル・リトル～グレートハンティング～-天使の褥",
-      "played": false,
-      "play_count": 0,
+      "played": true,
+      "play_count": 1,
       "record_hash": "1abb45683459f834629221bb8342c611dabb35bb44ebe8a4d3d6654be1eaa316"
     },
     {
@@ -5359,7 +5413,7 @@
     {
       "title": "Miku-HATSUNE MIKU 10th Anniversary Album 「Re：Start」-ロミオとシンデレラ",
       "played": true,
-      "play_count": 1,
+      "play_count": 2,
       "record_hash": "4552957e5caabcd460e265c484d20e7ca0f0e7444ccc994d95ce9e012bfe846f"
     },
     {
@@ -5568,8 +5622,8 @@
     },
     {
       "title": "茅原実里-Parade-Paradise Lost -at next nest-",
-      "played": false,
-      "play_count": 0,
+      "played": true,
+      "play_count": 1,
       "record_hash": "8c1f1cfc40cc3d69ceaf87fb942f7493d5de67496e32d4dd5ddb4e7ec53f682b"
     },
     {
@@ -5592,8 +5646,8 @@
     },
     {
       "title": "南條愛乃-Nのハコ-ゼロイチキセキ",
-      "played": false,
-      "play_count": 0,
+      "played": true,
+      "play_count": 1,
       "record_hash": "85c9fc3bcbf8733df168925e6dbefa9a1a39431096438221345f8b234b524215"
     },
     {
@@ -5622,8 +5676,8 @@
     },
     {
       "title": "妖精帝國-gothic lolita agitator-霊喰い",
-      "played": false,
-      "play_count": 0,
+      "played": true,
+      "play_count": 1,
       "record_hash": "f8c03ca10cc05e6e6436aaa543a67d2386c1d99982cb247b1ec9e85bfe0bad23"
     },
     {
@@ -5726,8 +5780,8 @@
     },
     {
       "title": "Duca-solfa works best album chronicle ~marine stage~-灼熱 Heart Beat",
-      "played": false,
-      "play_count": 0,
+      "played": true,
+      "play_count": 1,
       "record_hash": "612f7ccbaf963faf8365161aba530baea11be32feaca8e13a90ba9ab1c13070e"
     },
     {
@@ -6062,8 +6116,8 @@
     },
     {
       "title": "小坂りゆ-CROSS†CHANNEL ～In memory of all people～ Ost-時間の雲",
-      "played": false,
-      "play_count": 0,
+      "played": true,
+      "play_count": 1,
       "record_hash": "dcecd9e7560878e3069e1cb694db8e38c5b707ed282b4cb1ffb0abce90f805e5"
     },
     {
@@ -6230,8 +6284,8 @@
     },
     {
       "title": "みとせのりこ-Electro.muster-Unreal Player",
-      "played": false,
-      "play_count": 0,
+      "played": true,
+      "play_count": 1,
       "record_hash": "a196a9b31a3c61bc472435720b0fe5bfcbf3d7946231290a7938e2f0c20de373"
     },
     {
@@ -6251,12 +6305,6 @@
       "played": true,
       "play_count": 1,
       "record_hash": "3710551d8f8019529594ede5a7d81fa17083e810ded9567d9be4c3a4bdf1eb4c"
-    },
-    {
-      "title": "橋本みゆき-ten years carat-Astraea",
-      "played": false,
-      "play_count": 0,
-      "record_hash": "fd01f2090df4d6f160fc339304547becf93d3162f2386c5803557bb853f1f240"
     },
     {
       "title": "ALI PROJECT-La Vita Romantica-裸々イヴ新世紀",
@@ -6299,12 +6347,6 @@
       "played": true,
       "play_count": 1,
       "record_hash": "776fefee2ba43989c0eb1aba56410a6756ea188fc772754ae549e3aba13cdd44"
-    },
-    {
-      "title": "狩野七夏-サクラノ刻 －櫻の森の下を歩む－ Vocal Collection-櫻ト向日葵",
-      "played": false,
-      "play_count": 0,
-      "record_hash": "1246ac777ddf3428d0f81f72f6d0855ce061a926793c49e1528e581d2cd7101e"
     },
     {
       "title": "JAM Project featuring-マブラヴ オルタネイティヴ Ost vol.1-未来への咆哮",
@@ -6446,8 +6488,8 @@
     },
     {
       "title": "YURIA-それは舞い散る桜のように-style",
-      "played": false,
-      "play_count": 0,
+      "played": true,
+      "play_count": 1,
       "record_hash": "011e2adaca87a1f755e8f52ee444b4aee31b15ac5e58af3de6b35872b2914b1b"
     },
     {
@@ -6464,8 +6506,8 @@
     },
     {
       "title": "片霧烈火-Mind Resolution-Mind Resolution",
-      "played": false,
-      "play_count": 0,
+      "played": true,
+      "play_count": 1,
       "record_hash": "9695093471396626cc370aa81efe958ed3d179e30f607389b354d0551008c224"
     },
     {
@@ -6539,12 +6581,6 @@
       "played": true,
       "play_count": 1,
       "record_hash": "af12fd514f7f6abd8d50c556e284dd54d402113938d83dfc36bbf7a8afb001ce"
-    },
-    {
-      "title": "織田かおり-Make it-LOVE×∞ 2016",
-      "played": false,
-      "play_count": 0,
-      "record_hash": "fedcb429daf4edf49b18e61061e9c968fb2515d6c854bf0472a4ece39491e281"
     },
     {
       "title": "橋本みゆき-ワルキューレロマンツェ-本当の勇気に変わるまで",
@@ -6647,6 +6683,12 @@
       "played": true,
       "play_count": 1,
       "record_hash": "6cc4ff681657baf6f1c194af60af9e0dbdcafef5f0a6cbbf32179b26d3d0e437"
+    },
+    {
+      "title": "櫻川めぐ-この青空に約束を Ost-つまさきMovin'on!",
+      "played": true,
+      "play_count": 1,
+      "record_hash": "f55692c4bcf9e280681fe730cfb070d7449154185b255086cb7702ee15e60b99"
     }
   ],
   "13": [
@@ -6688,8 +6730,8 @@
     },
     {
       "title": "Yuyi-The Meteor UTAMONO Collection-Glorious Days",
-      "played": false,
-      "play_count": 0,
+      "played": true,
+      "play_count": 1,
       "record_hash": "010b74eb20af79b4700af1877b69ebd706b91aac2d8bb5faa27046e953bc0b99"
     },
     {
@@ -6700,8 +6742,8 @@
     },
     {
       "title": "fripSide-the very best of fripSide 2009-2020-We Rise",
-      "played": false,
-      "play_count": 0,
+      "played": true,
+      "play_count": 1,
       "record_hash": "57a914578f553c207b8b0858ed62296aa7e1963b65214007b170ff960e819a90"
     },
     {
@@ -6886,8 +6928,8 @@
     },
     {
       "title": "Zwei-イナンナの見た夢-イナンナの見た夢",
-      "played": false,
-      "play_count": 0,
+      "played": true,
+      "play_count": 1,
       "record_hash": "cf441ada3ee18a3c498c490ccb56eb5a4ae8293ba0ab402b0c65c33e08505987"
     },
     {
@@ -6910,8 +6952,8 @@
     },
     {
       "title": "yuiko-恋×シンアイ彼女 Ost-GLORIOUS DAYS",
-      "played": false,
-      "play_count": 0,
+      "played": true,
+      "play_count": 1,
       "record_hash": "c4d18822b8809b2d07b15d95a536f9505013093cf7b6a9a2078e966d154aac6d"
     },
     {
@@ -6934,8 +6976,8 @@
     },
     {
       "title": "KOTOKO-VA Compilation CD Vol.2 Panorama-Time heals all sorrows",
-      "played": false,
-      "play_count": 0,
+      "played": true,
+      "play_count": 1,
       "record_hash": "19a62735101617dbdb015c27685ccb35abef9cc22edef78a464a305493f0e9d4"
     },
     {
@@ -7024,8 +7066,8 @@
     },
     {
       "title": "KOTOKO-イプシロンの方舟-ひとりごと-2009 ver-",
-      "played": false,
-      "play_count": 0,
+      "played": true,
+      "play_count": 1,
       "record_hash": "ff676120278ca6941b46dd0ac042d813541b70e16fe45dd9fd7b49aad3572b6b"
     },
     {
@@ -7090,14 +7132,14 @@
     },
     {
       "title": "片霧烈火-Strawberry Nauts Ost-夜明けの星空",
-      "played": false,
-      "play_count": 0,
+      "played": true,
+      "play_count": 1,
       "record_hash": "b1898d7079f5f70328e69f4136455dc21ca67e420ddd86ea7eca7535599da8be"
     },
     {
       "title": "片霧烈火-凛なる薔薇よ、汝が為に咲け。-鈴鳴る声で僕の名を",
-      "played": false,
-      "play_count": 0,
+      "played": true,
+      "play_count": 1,
       "record_hash": "f520a12954373955d40ae3d95b85be284026a19bd26f7ab34cb0969e7bf360e7"
     },
     {
@@ -7150,8 +7192,8 @@
     },
     {
       "title": "仲村芽衣子-0と1の円環論理-夢は現",
-      "played": false,
-      "play_count": 0,
+      "played": true,
+      "play_count": 1,
       "record_hash": "3817490ee9e020589754556c3fa7c983d75bb826cc05638621706866f2ee0cc9"
     },
     {
@@ -7198,8 +7240,8 @@
     },
     {
       "title": "KOTOKO-UZU-MAKI-楓の道、ギターの奏でる丘で",
-      "played": false,
-      "play_count": 0,
+      "played": true,
+      "play_count": 1,
       "record_hash": "3dca5015dd6748a5a8a296f893b9b59d4d43c8f5939ddc5cdea97700b49312f8"
     },
     {
@@ -7264,8 +7306,8 @@
     },
     {
       "title": "fripSide-1／7の魔法使い 予約特典主題歌マキシシングルCD-Join Forces",
-      "played": false,
-      "play_count": 0,
+      "played": true,
+      "play_count": 1,
       "record_hash": "3e6d5860274700895d9cb4b58dec56562cfcd51216333e090ed90cc53d0c7734"
     },
     {
@@ -7333,12 +7375,6 @@
       "played": false,
       "play_count": 0,
       "record_hash": "82a6953f6fc59dd039c121a4f13ce2d56319875ed83333b802fd68746c9ba80d"
-    },
-    {
-      "title": "霜月はるか-130cm × アラケン ボーカルコレクション-眠花",
-      "played": false,
-      "play_count": 0,
-      "record_hash": "6e39737091c00a0d28ad6a9b8885fd5d0de2c45657fac9a42d981c091e7cbec5"
     },
     {
       "title": "美里-Plastik World-Leading Phantasy",
@@ -7630,8 +7666,8 @@
     },
     {
       "title": "WHITE-LIPS-ぱれおと！Special Edition-花束",
-      "played": false,
-      "play_count": 0,
+      "played": true,
+      "play_count": 1,
       "record_hash": "3472e8a7647a95a1d2e9851d4253090e01460493a611457d214b2cc8d779d59e"
     },
     {
@@ -7665,12 +7701,6 @@
       "played": true,
       "play_count": 1,
       "record_hash": "42dc64fc6fe1b80cb3a5fc8b1713a0c2cfbd87b6abc1c2f6ae059c3120e5645b"
-    },
-    {
-      "title": "橋本みゆき-GWAVE 2012 1st Memories-Fate Runners",
-      "played": false,
-      "play_count": 0,
-      "record_hash": "be9c72432247ee582557d91a2c448021752040ce152f731593b74856ee7a9e7b"
     },
     {
       "title": "uniy-ジュエリー・ハーツ・アカデミア Ost-Rising Fomalhaut",
@@ -7752,8 +7782,8 @@
     },
     {
       "title": "Suara-うたわれるもの 偽りの仮面&二人の白皇 歌集-君だけの旅路",
-      "played": false,
-      "play_count": 0,
+      "played": true,
+      "play_count": 1,
       "record_hash": "5499b942a2fe8b196f1e07e2c220752096e567a6b621626df4f2bacce1f1b5e6"
     },
     {
@@ -7767,12 +7797,6 @@
       "played": false,
       "play_count": 0,
       "record_hash": "6320ce54c37bbfc7e5479667bee1d3239ebef92185ad906ae52b4564f8100fbc"
-    },
-    {
-      "title": "橋本みゆき-Navel BEST 2011-2013-SHINY MOON",
-      "played": false,
-      "play_count": 0,
-      "record_hash": "cb47381017b947c32d676b6283b7f7c1ce8515660d6f8e0e6fbf8b1ded341a6a"
     },
     {
       "title": "fripSide-LEVEL5 -judgelight--memory of snow",
@@ -7842,8 +7866,8 @@
     },
     {
       "title": "YURIA-「カナリア ～この想いを歌にのせて～」 Canary Vocal Album - Smile for you --I LOVE YOU",
-      "played": false,
-      "play_count": 0,
+      "played": true,
+      "play_count": 1,
       "record_hash": "299fcfdc068bef29b1c9dc38949b6c35b3ee2671ab20cf6356a56b9c1d02b4b0"
     },
     {
@@ -8003,12 +8027,6 @@
       "record_hash": "b129f7eb5e22a8a508a1ddf8fd09949dddf3cbcc705941bf7c8749a2a4b4c7b1"
     },
     {
-      "title": "MAKI-Pachislot Sengoku Collection Music Selection-夢幻を越えて",
-      "played": false,
-      "play_count": 0,
-      "record_hash": "3b4310e72cc2aca8586374e2f2f66fbc8e50935ad2d441b31f84458f3d3db68d"
-    },
-    {
       "title": "fripSide-crossroads-before dawn daybreak -crossroads version-",
       "played": false,
       "play_count": 0,
@@ -8040,8 +8058,8 @@
     },
     {
       "title": "fripSide-way to answer-last fortune",
-      "played": false,
-      "play_count": 0,
+      "played": true,
+      "play_count": 1,
       "record_hash": "ba8a1e6c55893e219d2a8f32e442dc458ae3e5019e28364e889d1fea89c8999b"
     },
     {
@@ -8070,8 +8088,8 @@
     },
     {
       "title": "咲良ゆの-インタステラ-氷晶のプリズム",
-      "played": false,
-      "play_count": 0,
+      "played": true,
+      "play_count": 1,
       "record_hash": "408cf2e05dbe1aa5aa1ffefb63e2fdfc358dd26f5c9b21090724316daf3fe762"
     },
     {
@@ -8262,8 +8280,8 @@
     },
     {
       "title": "Kicco-Precious Gift-Lucky Monster",
-      "played": false,
-      "play_count": 0,
+      "played": true,
+      "play_count": 1,
       "record_hash": "50aafde8b857c9982134191afd7f66466b21e011bf422163719a2f20aeed9f15"
     },
     {
@@ -8274,8 +8292,8 @@
     },
     {
       "title": "南央美-機動戦艦ナデシコ-あなたの一番になりたい",
-      "played": false,
-      "play_count": 0,
+      "played": true,
+      "play_count": 1,
       "record_hash": "cb2b797d27701e0743d93a764fe6cda94034eb498d31e4f0b7f34ccc71e24ae9"
     },
     {
@@ -8406,8 +8424,8 @@
     },
     {
       "title": "櫻川めぐ-Whirlpool Complete Album 2006 - 2016-Treasure／Pleasure",
-      "played": false,
-      "play_count": 0,
+      "played": true,
+      "play_count": 1,
       "record_hash": "37c0196b300f51f46ea28309224aaec77e99fefac3b7969e996d96cb829e5ccc"
     },
     {
@@ -8472,14 +8490,14 @@
     },
     {
       "title": "ぽこた＆YURiCa／花たん-VOCALOID-サンドリヨン：Cendrillon",
-      "played": false,
-      "play_count": 0,
+      "played": true,
+      "play_count": 1,
       "record_hash": "6a098799989369ddf483146a609c462b079ce7662b15674a608bb1690aefc26d"
     },
     {
       "title": "Riryka-Brilliant sign-Perfect Tears",
-      "played": false,
-      "play_count": 0,
+      "played": true,
+      "play_count": 1,
       "record_hash": "029526418742a40f9f358b5aefbfbb5c50bf8a3678ee5cb92769c52b04007617"
     },
     {
@@ -8640,8 +8658,8 @@
     },
     {
       "title": "薬師るり-colorful plus-Path of Destiny",
-      "played": false,
-      "play_count": 0,
+      "played": true,
+      "play_count": 1,
       "record_hash": "8eb0d1cdace52cc8f7e34ff62ee5bd3083a4012da64e567e38d7ae05be23125f"
     },
     {
@@ -8700,8 +8718,8 @@
     },
     {
       "title": "真理絵 & Rita-GWAVE 2009 2nd Ace-恋は∞まじっく! Special mix ver",
-      "played": false,
-      "play_count": 0,
+      "played": true,
+      "play_count": 1,
       "record_hash": "42fb989983621f3e320e10a7363902e5d9a4a0a57efe698e9cfb7942ecabd34d"
     },
     {
@@ -8762,8 +8780,8 @@
   "15": [
     {
       "title": "fripSide-split tears-fictional moon",
-      "played": false,
-      "play_count": 0,
+      "played": true,
+      "play_count": 1,
       "record_hash": "d1ba9a573f38ddb6cb4309b0214d48fe33861cdaa9b63a9bf1eec25c86302671"
     },
     {
@@ -8798,8 +8816,8 @@
     },
     {
       "title": "日南めい-Monkeys!! Ost-地獄かよって思う",
-      "played": false,
-      "play_count": 0,
+      "played": true,
+      "play_count": 1,
       "record_hash": "482391d6c6998a44d57deed88725fcfc62cd1a005c9216dcba5ce4d52a7cb123"
     },
     {
@@ -8834,8 +8852,8 @@
     },
     {
       "title": "はな-向日葵の教会と長い夏休みi Vocal CD-キスキラリ",
-      "played": false,
-      "play_count": 0,
+      "played": true,
+      "play_count": 1,
       "record_hash": "104b9e15095b0d670274bfab772a809bd5790da988ac0621b7c050009880893b"
     },
     {
@@ -8864,8 +8882,8 @@
     },
     {
       "title": "真宮寺さくら & 帝国歌劇団-檄!帝国華撃団全集-檄!帝国華撃団",
-      "played": false,
-      "play_count": 0,
+      "played": true,
+      "play_count": 1,
       "record_hash": "04c54622f047f8a641dec68dec44230b0db5267a534eeb551d6cf9fda084eea6"
     },
     {
@@ -8912,8 +8930,8 @@
     },
     {
       "title": "片霧烈火-見上げた空におちていく-見上げた空におちていく",
-      "played": false,
-      "play_count": 0,
+      "played": true,
+      "play_count": 1,
       "record_hash": "ffb20ae97c767300e57f30fe7e172708b89875a407bd16a2eb666381bdd27d6b"
     },
     {
@@ -9127,12 +9145,6 @@
       "record_hash": "5fc9e91cd68a967d872669216228a08cb576bcbb41e8b0e26b477367886e1a61"
     },
     {
-      "title": "櫻川めぐ-蒼乃燐光 -Azure Phosphorescence--月世界航路-A Zip to the Moon-",
-      "played": false,
-      "play_count": 0,
-      "record_hash": "af256b6aa061cf73a3b374d66a1a2383e2b71aac02c04f5fa0cb39af774e77a0"
-    },
-    {
       "title": "薬師るり-ワールド ・ エレクション Ost-Partyは終わらないよ",
       "played": false,
       "play_count": 0,
@@ -9158,8 +9170,8 @@
     },
     {
       "title": "橋本みゆき-ぱれおと！Special Edition-glorious days",
-      "played": false,
-      "play_count": 0,
+      "played": true,
+      "play_count": 1,
       "record_hash": "6d4b487cc70b43612f3874c73a968980476a73ce8129275ceb52908fbc70d6cc"
     },
     {
@@ -9200,8 +9212,8 @@
     },
     {
       "title": "fripSide-Decade-Decade",
-      "played": false,
-      "play_count": 0,
+      "played": true,
+      "play_count": 1,
       "record_hash": "fd95ac91a83e0e55295561d06fc314c47f885e6042a69a854b9b17b02386a262"
     },
     {
@@ -9248,8 +9260,8 @@
     },
     {
       "title": "KOTOKO to 詩月カオリ-LAMENT-SAVE YOUR HEART -Album Mix-",
-      "played": false,
-      "play_count": 0,
+      "played": true,
+      "play_count": 1,
       "record_hash": "7560cdcf994eb721abaa873a0f5f70539f51293b92776c82254daf57352790db"
     },
     {
@@ -9290,8 +9302,8 @@
     },
     {
       "title": "ZELKOKO-ピリオドゼロ オリジナルサウンドトラック-ピリオドのない世界",
-      "played": false,
-      "play_count": 0,
+      "played": true,
+      "play_count": 1,
       "record_hash": "e4c2c87273326f6f719fdb032bf64856445214f198ec1d97da3ff72977a68c50"
     },
     {
@@ -9326,14 +9338,14 @@
     },
     {
       "title": "花園めい & 雨場つかさ-ノラと皇女と野良猫ハート2 Ost Oblivion-クライングハート -アイリス&ノエル-",
-      "played": false,
-      "play_count": 0,
+      "played": true,
+      "play_count": 1,
       "record_hash": "56d68b285ef0971be7ee1ed2f8391ee1f1a666c914ebddb0c0be02b1e70be103"
     },
     {
       "title": "fripSide-infinite synthesis 5-brand new world",
-      "played": false,
-      "play_count": 0,
+      "played": true,
+      "play_count": 1,
       "record_hash": "8d2725aef78ed0dfc091b175587b0b5bbf1d13a54b7e907d544b30f057eebe71"
     },
     {
@@ -9362,8 +9374,8 @@
     },
     {
       "title": "小坂りゆ-恋と水着と太陽と ～スミレ島ライフセーバーず～ Ost-夏のキセキ",
-      "played": false,
-      "play_count": 0,
+      "played": true,
+      "play_count": 1,
       "record_hash": "fc33aeb778194980a9f96c10814308e124ab963be8f5a7171451cfa9298458c8"
     },
     {
@@ -9458,8 +9470,8 @@
     },
     {
       "title": "薬師るり-colorful expression-キャンバス",
-      "played": false,
-      "play_count": 0,
+      "played": true,
+      "play_count": 1,
       "record_hash": "b86189c379367e53e0288fbc0c4fa35b6bf5bd3a15cae8870da80e874175b341"
     },
     {
@@ -9512,8 +9524,8 @@
     },
     {
       "title": "美郷あき-CIRCUS 10th Collect-beautiful flower",
-      "played": false,
-      "play_count": 0,
+      "played": true,
+      "play_count": 1,
       "record_hash": "4e83daade83c966d13d1ec695ab417bc802cc003b487b742e3bf06aaefa50c24"
     },
     {
@@ -9608,8 +9620,8 @@
     },
     {
       "title": "Rita-リトルバスターズ!-Little Busters! -Ecstasy Ver.-",
-      "played": false,
-      "play_count": 0,
+      "played": true,
+      "play_count": 1,
       "record_hash": "8dc59fcc3cc7f6b42be884d105087146d0e71f1565f1c7e801aa429b72261783"
     },
     {
@@ -9656,8 +9668,8 @@
     },
     {
       "title": "小春めう-QUINTUPLE☆SPLASH キャラクターソング＆サウンドアルバム-星屑water front",
-      "played": false,
-      "play_count": 0,
+      "played": true,
+      "play_count": 1,
       "record_hash": "45d82066330330f989d89055d50416e42a2d0731008221c5a7b28a5b142ffd5a"
     },
     {
@@ -9722,8 +9734,8 @@
     },
     {
       "title": "yozuca＊-fortissimo complete best album-My wish = Only one",
-      "played": false,
-      "play_count": 0,
+      "played": true,
+      "play_count": 1,
       "record_hash": "3673a50fe4be323e517470a7162bf82e72041d349f6979c08ee73d3cf6dd3313"
     },
     {
@@ -9800,8 +9812,8 @@
     },
     {
       "title": "Riryka-Angel Note Best Collection Volume 9 Compilation-夕焼けのマージナル",
-      "played": false,
-      "play_count": 0,
+      "played": true,
+      "play_count": 1,
       "record_hash": "50c5e76863501b3ef236cec90f95ad8763d4881d341b2f08848343a987d268a4"
     },
     {
@@ -9824,8 +9836,8 @@
     },
     {
       "title": "KOTOKO-Out Flow-Close to me...",
-      "played": false,
-      "play_count": 0,
+      "played": true,
+      "play_count": 1,
       "record_hash": "02b405e55a0f40abd0ce35f6da6fbf0660e8b07fc93705eb2e32c3750233f05d"
     },
     {
@@ -9836,8 +9848,8 @@
     },
     {
       "title": "Marica-GWAVE 2007 1st Drivers-KEEP OUT",
-      "played": false,
-      "play_count": 0,
+      "played": true,
+      "play_count": 1,
       "record_hash": "46c5a61a548fee3c44d64f7e67ffdb5a361b43d575ae0a7fa5df89d403e21afb"
     },
     {
@@ -9872,8 +9884,8 @@
     },
     {
       "title": "Rita-VA Compilation CD Vol.4 Panorama -First Emotion",
-      "played": false,
-      "play_count": 0,
+      "played": true,
+      "play_count": 1,
       "record_hash": "3dd7b8005ea8765e3a8635efcead26fa9fc344484a7bb52e2f56b0334e7f7cb5"
     },
     {
@@ -9890,8 +9902,8 @@
     },
     {
       "title": "NANA-鯨神のティアスティラ Ost-ネガイミズ",
-      "played": false,
-      "play_count": 0,
+      "played": true,
+      "play_count": 1,
       "record_hash": "c38672d2e935dd0c77db011b044aed8ed7b6ce569a07c84616651044aeb31ee3"
     },
     {
@@ -9935,12 +9947,6 @@
       "played": false,
       "play_count": 0,
       "record_hash": "bd40a6de0786dd3366c4068fc97a2467840c84344c10d77758dcdd2b60cae7c6"
-    },
-    {
-      "title": "櫻川めぐ-この青空に約束を Ost-つまさきMovin'on!",
-      "played": false,
-      "play_count": 0,
-      "record_hash": "f55692c4bcf9e280681fe730cfb070d7449154185b255086cb7702ee15e60b99"
     },
     {
       "title": "桜坂かい-こころのプリズム-こころのプリズム",
@@ -10144,8 +10150,8 @@
     },
     {
       "title": "angela-Battle & Message-SURVIVE!",
-      "played": false,
-      "play_count": 0,
+      "played": true,
+      "play_count": 1,
       "record_hash": "57307c288b1447a625f3fa6c7a76c175d5e5598c4a2f922883dc2f9771adbd18"
     },
     {
@@ -10168,14 +10174,14 @@
     },
     {
       "title": "井上みゆ-GWAVE SuperFeature's vol.7 Sugar+Complete-I can",
-      "played": false,
-      "play_count": 0,
+      "played": true,
+      "play_count": 1,
       "record_hash": "8ede34e0454e00884752793db84c5bf236bac24f8cefabfdfe757e2b9d77f999"
     },
     {
       "title": "KOTOKO-The Front Line Covers-季節の雫 -The Front Line Covers-",
-      "played": false,
-      "play_count": 0,
+      "played": true,
+      "play_count": 1,
       "record_hash": "75135ae3b15a262f0e37979c19f3296f33d99814428eb9e7e9d8e3682f8c861a"
     },
     {
@@ -10432,8 +10438,8 @@
     },
     {
       "title": "南條愛乃-The Fantasic Garde-ホレヴォ",
-      "played": false,
-      "play_count": 0,
+      "played": true,
+      "play_count": 1,
       "record_hash": "c4752b888fdfd40d81e95ea97daefb5be8f2b37bcebc2ae50edd238802f62a1d"
     },
     {
@@ -10483,12 +10489,6 @@
       "played": true,
       "play_count": 1,
       "record_hash": "f623c3a7e189efee4ea3e08a29a4bc7000aa6cca855df70b09d71df567c8f311"
-    },
-    {
-      "title": "柏木晴子-「マブラヴ」シリーズ･ボーカル集-START IN LOVE",
-      "played": false,
-      "play_count": 0,
-      "record_hash": "e757ee87908f5d7f3bf7102b884561d49a093d9a8e910808db3b00167b58ca3d"
     },
     {
       "title": "彩菜-Last regrets／風の辿り着く場所-風の辿り着く場所",
@@ -10570,8 +10570,8 @@
     },
     {
       "title": "佐咲紗花-QUINTUPLE☆SPLASH キャラクターソング＆サウンドアルバム-あなたとPrecious Days",
-      "played": false,
-      "play_count": 0,
+      "played": true,
+      "play_count": 1,
       "record_hash": "5b204e552d5b608d92dd6afdd2b0db60e3933fd6172d1a0484b43e9733ac389d"
     },
     {
@@ -10618,8 +10618,8 @@
     },
     {
       "title": "CooRie-CIRCUS 10th Collect-桜の羽根 ～Endless memory～",
-      "played": false,
-      "play_count": 0,
+      "played": true,
+      "play_count": 1,
       "record_hash": "b35fa2a3106c21ca2e35c8b1467c9ea17f49de5a0c35f102b40b6827b0128c89"
     },
     {
@@ -10672,8 +10672,8 @@
     },
     {
       "title": "登代田瀬良-天色＊アイルノーツ OSt-天色～夕音～",
-      "played": false,
-      "play_count": 0,
+      "played": true,
+      "play_count": 1,
       "record_hash": "53bebcc4fedc4eb932ff8e9ffacabc6d1fc17f0b07dafa36e5a3728dbeca9623"
     },
     {
@@ -10966,8 +10966,8 @@
     },
     {
       "title": "西沢はぐみ-Hug Me In!-キミと強さと優しさと",
-      "played": false,
-      "play_count": 0,
+      "played": true,
+      "play_count": 1,
       "record_hash": "5c3dd4b0efb75d3c7acab7bf571aebc489f559e67c7a8e6b2794a1e2deca7b27"
     },
     {
@@ -10978,8 +10978,8 @@
     },
     {
       "title": "アキ-東方悠幻奏-Sacred",
-      "played": false,
-      "play_count": 0,
+      "played": true,
+      "play_count": 1,
       "record_hash": "0b714e977c4ed19f8f795bb391d69038a91c2978f21ecddd847512e4b36468a9"
     },
     {
@@ -11020,20 +11020,20 @@
     },
     {
       "title": "NANA-Justy×Nasty Ost-LOVE ADVENTURE",
-      "played": false,
-      "play_count": 0,
+      "played": true,
+      "play_count": 1,
       "record_hash": "481bbb8b9b3c4ea7ad98153afee33cac2272ad08900db3846b82ea2678ea4138"
     },
     {
       "title": "Rin'ca-ピュアソングガーデン ! Ost 『エンゼルラブソング』-ワールドスタート",
-      "played": false,
-      "play_count": 0,
+      "played": true,
+      "play_count": 1,
       "record_hash": "f143856bc980dac5318501a131e22bee21c738cf9304e63f07fad9a851fbcad5"
     },
     {
       "title": "のみこ-Navel LIVE BEST -NavPA!! 2023--夢色花火",
-      "played": false,
-      "play_count": 0,
+      "played": true,
+      "play_count": 1,
       "record_hash": "ed09318e9dcdba5ca2f2ae8f97b4641f1d8e54e1bbddeaf4a191305da5b2dc5d"
     },
     {
@@ -11104,8 +11104,8 @@
     },
     {
       "title": "南條愛乃-The Fantasic Garde-閃 -Sen-",
-      "played": false,
-      "play_count": 0,
+      "played": true,
+      "play_count": 1,
       "record_hash": "2236b5e2a041ca59d60f79455f236bf4d4aba95485af120be1c9e6d485f56264"
     },
     {
@@ -11128,8 +11128,8 @@
     },
     {
       "title": "榊原ゆい-タイムリープぱらだいす-Happy Leap",
-      "played": false,
-      "play_count": 0,
+      "played": true,
+      "play_count": 1,
       "record_hash": "97e78e426f6a9f5ddce10727f16d22458fe2eb3aa7cb61848e5280bb168e0872"
     },
     {
@@ -11164,8 +11164,8 @@
     },
     {
       "title": "遠藤正明-「マブラヴ」シリーズ･ボーカル集-マブラヴ",
-      "played": false,
-      "play_count": 0,
+      "played": true,
+      "play_count": 1,
       "record_hash": "8060fc2f88d43688a0b1bbdc40d5bd38ffb7f14fa410ad791a7195bc9a7c119f"
     },
     {
@@ -11176,8 +11176,8 @@
     },
     {
       "title": "真理絵-メルルのアトリエ ～アーランドの錬金術士3～ Ost-錬金少女メルルのうた",
-      "played": false,
-      "play_count": 0,
+      "played": true,
+      "play_count": 1,
       "record_hash": "1c192380f884c521bb43ec886cfed8074bbf786bed4a2e6da9768b163419ef5c"
     },
     {
@@ -11194,14 +11194,14 @@
     },
     {
       "title": "美郷あき-Navel LIVE BEST -NavPA!! 2023--Jewelry tears",
-      "played": false,
-      "play_count": 0,
+      "played": true,
+      "play_count": 1,
       "record_hash": "6231c34aff051214b51f28c71b8abffce53df8c3a671711b7c5e12d36f68d633"
     },
     {
       "title": "栗林みな実-「マブラヴ」シリーズ･ボーカル集-I will",
-      "played": false,
-      "play_count": 0,
+      "played": true,
+      "play_count": 1,
       "record_hash": "52234e427dc966b7249bd1b3a3d47b6f313dd4472ec9e46dd34ed86c725e1612"
     },
     {
@@ -11212,8 +11212,8 @@
     },
     {
       "title": "櫻川めぐ-ハミダシクリエイティブ凸 ボーカルアルバム-一冊のアロー",
-      "played": false,
-      "play_count": 0,
+      "played": true,
+      "play_count": 1,
       "record_hash": "d2632be7eb6366ff66ef0d1ac9efab9d7a83ee9ba4663b0d2fc7693f6e0359d2"
     },
     {
@@ -11242,8 +11242,8 @@
     },
     {
       "title": "桃田佳世子-CIRCUS 10th Collect-Little Distance",
-      "played": false,
-      "play_count": 0,
+      "played": true,
+      "play_count": 1,
       "record_hash": "1bd56ef6508aefda30a40082ff246cbef4e806b4e750573d91f5241b26d2c697"
     },
     {
@@ -11254,8 +11254,8 @@
     },
     {
       "title": "美郷あき-「マブラヴ」シリーズ･ボーカル集-Calling",
-      "played": false,
-      "play_count": 0,
+      "played": true,
+      "play_count": 1,
       "record_hash": "17ba658ef92e5d2ad47165b6f463aca65d5ca71fd48c10be7ddcc08a2f082066"
     },
     {
@@ -11326,8 +11326,8 @@
     },
     {
       "title": "橋本みゆき-CIRCUS 10th Collect-Fortune's wheel",
-      "played": false,
-      "play_count": 0,
+      "played": true,
+      "play_count": 1,
       "record_hash": "44acbc5fd9c8425df0358d4694ac4f473922003f4dda52d895897f3f8412aede"
     },
     {
@@ -11416,8 +11416,8 @@
     },
     {
       "title": "Little Non-CIRCUS 10th Collect-Sweet Love Flag",
-      "played": false,
-      "play_count": 0,
+      "played": true,
+      "play_count": 1,
       "record_hash": "5133073e945b0f264232d30432cd427e5c5c0b73e5b7203b22090cc9862dd8fe"
     },
     {
@@ -11440,8 +11440,8 @@
     },
     {
       "title": "真理絵-TinkerBell & WendyBell Vocal Collection 理由はいらない、真理絵だもの。-夢は世界☆征服なのです",
-      "played": false,
-      "play_count": 0,
+      "played": true,
+      "play_count": 1,
       "record_hash": "2d937255c46022eef1f3b2290fd10653f1d35c40f985d14bd107da6daa96b749"
     },
     {
@@ -11476,8 +11476,8 @@
     },
     {
       "title": "ひうらまさこ-エスクード BEST VOCAL on PEACH-夢幻凪",
-      "played": false,
-      "play_count": 0,
+      "played": true,
+      "play_count": 1,
       "record_hash": "66aa100a645c7c3f4cc7eafea72647182338c01a618a5a002401ed9e047ae2f8"
     },
     {
@@ -11518,8 +11518,8 @@
     },
     {
       "title": "miru-CIRCUS 10th Collect-helado",
-      "played": false,
-      "play_count": 0,
+      "played": true,
+      "play_count": 1,
       "record_hash": "9d8028f97272fe4b8c56cc0896acfde0f41baf024c57882106a76cd4ca39f444"
     },
     {
@@ -11536,8 +11536,8 @@
     },
     {
       "title": "吉田菜穂子-エスクードヴォーカルコレクション vol.1-MY ONLY STYLE",
-      "played": false,
-      "play_count": 0,
+      "played": true,
+      "play_count": 1,
       "record_hash": "a666b01c237066c4104774ac63c5595f61681cd918385e6f7bd9397ae7e41d3a"
     },
     {
@@ -11554,8 +11554,8 @@
     },
     {
       "title": "瀬名-CIRCUS 10th Collect-Eternal Fantasy ～愛は世界に遍く花のように～",
-      "played": false,
-      "play_count": 0,
+      "played": true,
+      "play_count": 1,
       "record_hash": "4c315eb18de92d9d970667f709ce77d75c47130865e1216e3c10d0da36f7db37"
     },
     {
@@ -11590,8 +11590,8 @@
     },
     {
       "title": "神代あみ-Orange Candy Box -Angel Note Best Collection 8- -Cherry Days",
-      "played": false,
-      "play_count": 0,
+      "played": true,
+      "play_count": 1,
       "record_hash": "51be68afa18c932843670970e8d66992ac5bf392ab3517a90f1bfc423dc12a81"
     }
   ],
@@ -11700,8 +11700,8 @@
     },
     {
       "title": "茶太-お家に帰るまでがましまろです キャラクターソング&サウンドアルバム-Sugar×Sugar",
-      "played": false,
-      "play_count": 0,
+      "played": true,
+      "play_count": 1,
       "record_hash": "71c2a3171241ca27c7f0b012ff0bc76bad2db58abb8549c6ee14a538897e25ed"
     },
     {
@@ -11712,9 +11712,131 @@
     },
     {
       "title": "近衛かおる-ゲートキーパーズ TVボーカルアルバム-恋はDAN・DAN",
+      "played": true,
+      "play_count": 1,
+      "record_hash": "4abd0b35ae6716ca013819205594dc47a7e0187a7273592617b4b6e086201ed7"
+    }
+  ],
+  "18": [
+    {
+      "title": "Kotoha-ましろ色シンフォニー SANA EDITION Maxi Single-雪は何色",
       "played": false,
       "play_count": 0,
-      "record_hash": "4abd0b35ae6716ca013819205594dc47a7e0187a7273592617b4b6e086201ed7"
+      "record_hash": "7235820726afd481aaed553810717896252e260d0cf9b9aaf68fa8445e1e8dbe"
+    },
+    {
+      "title": "MAMI featuring NATSUMI-夏色さじたりうす～浜井原学園弓道部～ Ost-夏のかけら",
+      "played": true,
+      "play_count": 1,
+      "record_hash": "38a98fdd50cb12061c9e296edce29bbb09e8fa65f959a59c0df9c69474e23036"
+    },
+    {
+      "title": "NANA-GWAVE 2010 1st Grace-マル秘☆恋愛法則",
+      "played": false,
+      "play_count": 0,
+      "record_hash": "df53799d27505feace3d5ba2b4ed5a43db2cac1d8ac0b4b8cc0654934b28e16a"
+    },
+    {
+      "title": "SATOMI-ninetail クロニクルボーカルコレクション-鋼鉄のオブリージュ",
+      "played": true,
+      "play_count": 1,
+      "record_hash": "4830c2f5c32925321419ed7f1523672dc900676fefae876075e6f593f857b525"
+    },
+    {
+      "title": "U-GWAVE SuperFeature's vol.19【ULTRA☆U -GALAXY-】-merry-go-round",
+      "played": false,
+      "play_count": 0,
+      "record_hash": "26205474242888c807ead0f9608589e40b182e1749c1f3a849fa6edd47741253"
+    },
+    {
+      "title": "jina-世界征服彼女 Ost-約束カガク",
+      "played": true,
+      "play_count": 1,
+      "record_hash": "0e2dad73eecfb512dd3f365bc6e4078beb06823c57e2200d62d97b9c85f8b884"
+    },
+    {
+      "title": "中山マミ-いきなりはっぴぃベル サウンド パーティ-見つめていたい",
+      "played": false,
+      "play_count": 0,
+      "record_hash": "a229de8b5358a029b90742454766b74c38609e7340a0de8a561713dc6ba9f02e"
+    },
+    {
+      "title": "冬乃桜-コイバナ恋愛 Ost-等身大lover",
+      "played": false,
+      "play_count": 0,
+      "record_hash": "2492e6514f8c19c4ba369883ea08128ca8739c40d3147cbc367f97c06a39021c"
+    },
+    {
+      "title": "喜多村英梨-証×明 -SHOMEI--Birth",
+      "played": false,
+      "play_count": 0,
+      "record_hash": "196837a7c4d49fcfa0b252fcb7827557838ffad78fce75f124ca1ef54fe71001"
+    },
+    {
+      "title": "喜多村英梨-証×明 -SHOMEI--PIXY",
+      "played": false,
+      "play_count": 0,
+      "record_hash": "776751375e7906bf3e305d26440f6324988588a579d3aa8adecbcc8506ed348f"
+    },
+    {
+      "title": "多田葵-Rewrite Harvest festa! 追加サウンドトラック-Harvest",
+      "played": false,
+      "play_count": 0,
+      "record_hash": "ea8be500d1909dd1a3e2c04a69e80d9ce666d390cc58597616a25e1986c79e0b"
+    },
+    {
+      "title": "小日向千虎-コイバナ恋愛 Ost-ヘタクソな恋",
+      "played": false,
+      "play_count": 0,
+      "record_hash": "fe8bd36d073e714a756899b926629bf53acb3ccf448362de4b4734276a3cf544"
+    },
+    {
+      "title": "月乃-FLIP＊FLOP Ost-Phalaenopsis-reaction",
+      "played": false,
+      "play_count": 0,
+      "record_hash": "4e047e6b16364e63bd98155e8f33987898e740a647d2a9c993b847e356e33e5c"
+    },
+    {
+      "title": "木川絵理子-ピンキーストリート：KIRAKIRA MUSIC HOUR Ost-STARLIGHT LUV ~BONUS Vocal Arrange~",
+      "played": false,
+      "play_count": 0,
+      "record_hash": "8ad04eb9f9fc09507e38312f52b325d214e4e10769ff949514843e59104cae4b"
+    },
+    {
+      "title": "橋本みゆき-ハピメア REGRET END Ost-非実空想アムネジア",
+      "played": false,
+      "play_count": 0,
+      "record_hash": "51dfa8679671c93d274569082db740b765b39d63b700622aa192241d4341de10"
+    },
+    {
+      "title": "水谷瑠奈-Rewrite Harvest festa! 追加サウンドトラック-ささやかなはじまり",
+      "played": false,
+      "play_count": 0,
+      "record_hash": "8cb0feae2412893818282569f94fe05e4191b5dcfe40207796b48740f37045a9"
+    },
+    {
+      "title": "河原木志穂-ピンキーストリート：KIRAKIRA MUSIC HOUR Ost-Perfect Night ~BONUS Vocal Arrange~",
+      "played": false,
+      "play_count": 0,
+      "record_hash": "dddff842e9bcd2d78b30eae1bda968bbf322c6aa1087c55255b874268ddabaf0"
+    },
+    {
+      "title": "美月琴音-ハピメア REGRET END Ost-後ろ髪の証跡",
+      "played": false,
+      "play_count": 0,
+      "record_hash": "9ad7637658d6be671919f8f01c9307646517840560aa81023c581486933464d1"
+    },
+    {
+      "title": "逢瀬アキラ-Whirlpool ボーカルソング集 Vol.6 Theory-Loving on stage!!!",
+      "played": true,
+      "play_count": 1,
+      "record_hash": "848765dd4bc3eb20fd5213f78e1976429592814d2b48d563563a663465d413a2"
+    },
+    {
+      "title": "青木春子-HOOKSOFT MEMORIAL SOUND COLLECTION 2000～2008 オトノキセキ-Love Hell Rocket",
+      "played": false,
+      "play_count": 0,
+      "record_hash": "522f0bfc3fe865434e9a6d57d674140edfcc51e2c108842f6220ef05796cf54c"
     }
   ]
 }
