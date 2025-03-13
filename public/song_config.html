@@ -3,6 +3,7 @@
 <html>
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title>曲レベル設定</title>
     <style>
         /* ボタンのスタイルを整える */
@@ -29,26 +30,29 @@
         <button onclick="copyTitleToClipboard()">タイトルをコピー</button>
         <span id="copyFeedback" class="copy-feedback">コピーしました！</span>
     </div>
+<script>
+    const { ipcRenderer } = require('electron');
 
-    <script>
-        const { ipcRenderer } = require('electron');
+    let current_hash = '';
+    let current_title = '';  // タイトルを保持する変数を追加
 
-        let current_hash = '';
-        let current_title = '';  // タイトルを保持する変数を追加
-
-        // メインプロセスから曲情報を受信
-        ipcRenderer.on('song_data', (event, song_data) => {
+    // メインプロセスから曲情報を受信
+    ipcRenderer.on('song_data', (event, song_data) => {
+        try {
             current_hash = song_data.record_hash;
-            current_title = song_data.title;  // タイトルを保存
+            // タイトルをデコードして保存
+            current_title = decodeURIComponent(encodeURIComponent(song_data.title));
             
             // 曲情報を表示
             document.getElementById('song_info').innerHTML = `
-                <p>タイトル：${song_data.title}</p>
+                <p>タイトル：${current_title}</p>
                 <p>現在のレベル：${song_data.level}</p>
             `;
 
             // レベル選択肢を設定
             const select = document.getElementById('level_select');
+            select.innerHTML = ''; // 既存のオプションをクリア
+            
             song_data.available_levels.forEach(level => {
                 const option = document.createElement('option');
                 option.value = level;
@@ -58,38 +62,42 @@
                 }
                 select.appendChild(option);
             });
+        } catch (error) {
+            console.error('曲データの処理中にエラーが発生しました:', error);
+        }
+    });
+
+    // レベル更新処理
+    function updateLevel() {
+        const new_level = document.getElementById('level_select').value;
+        ipcRenderer.send('update_song_level', {
+            record_hash: current_hash,
+            new_level: new_level
         });
+        window.close();
+    }
 
-        // レベル更新処理
-        function updateLevel() {
-            const new_level = document.getElementById('level_select').value;
-            ipcRenderer.send('update_song_level', {
-                record_hash: current_hash,
-                new_level: new_level
-            });
-            window.close();
+    // クリップボードコピー機能
+    async function copyTitleToClipboard() {
+        try {
+            // クリップボードにタイトルをコピー
+            await navigator.clipboard.writeText(current_title);
+            
+            // コピー成功時のフィードバックを表示
+            const feedback = document.getElementById('copyFeedback');
+            feedback.style.display = 'inline';
+            
+            // フィードバックを2秒後に非表示
+            setTimeout(() => {
+                feedback.style.display = 'none';
+            }, 2000);
+            
+        } catch (err) {
+            console.error('クリップボードへのコピーに失敗しました:', err);
+            alert('クリップボードへのコピーに失敗しました');
         }
+    }
+</script>
 
-        // クリップボードコピー機能
-        async function copyTitleToClipboard() {
-            try {
-                // クリップボードにタイトルをコピー
-                await navigator.clipboard.writeText(current_title);
-                
-                // コピー成功時のフィードバックを表示
-                const feedback = document.getElementById('copyFeedback');
-                feedback.style.display = 'inline';
-                
-                // フィードバックを2秒後に非表示
-                setTimeout(() => {
-                    feedback.style.display = 'none';
-                }, 2000);
-                
-            } catch (err) {
-                console.error('クリップボードへのコピーに失敗しました:', err);
-                alert('クリップボードへのコピーに失敗しました');
-            }
-        }
-    </script>
 </body>
 </html>
